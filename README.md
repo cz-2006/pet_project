@@ -92,8 +92,7 @@ python scripts/mp4_to_png.py --input-dir output_transparent_v2 --outdir assets/f
 
 
 
-## ??
-<video src="pet_example.mp4" controls width="480"></video>
+## demo视频
 
-???????????????[pet_example.mp4](pet_example.mp4)
+[pet_example.mp4](pet_example.mp4)
 
