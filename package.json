@@ -1,0 +1,31 @@
+{
+    "name":  "pet_project",
+    "version":  "0.1.0",
+    "main":  "app/main.js",
+    "private":  true,
+    "scripts":  {
+                    "start":  "electron .",
+                    "build":  "electron-builder"
+                },
+    "devDependencies":  {
+                            "electron":  "^30.0.0",
+                            "electron-builder":  "^24.13.3"
+                        },
+    "build":  {
+                  "appId":  "com.example.desktoppet",
+                  "files":  [
+                                "app/**",
+                                "assets/**"
+                            ],
+                  "win":  {
+                              "target":  "nsis"
+                          },
+                  "nsis":  {
+                               "oneClick":  false,
+                               "allowToChangeInstallationDirectory":  true,
+                               "perMachine":  false
+                           }
+              },
+    "description":  "Desktop pet",
+    "author":  "Brownie"
+}

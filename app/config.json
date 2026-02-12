@@ -1,0 +1,17 @@
+﻿{
+  "window": { "width": 240, "height": 240, "alwaysOnTop": true },
+  "idle": { "type": "image", "src": "../assets/ori.png" },
+  "actions": {
+    "blush": { "dir": "../assets/frames/blush", "fps": 24, "cooldown": 60 },
+    "cry":   { "dir": "../assets/frames/cry",   "fps": 24, "cooldown": 5 },
+    "dull":  { "dir": "../assets/frames/dull",  "fps": 24, "cooldown": 5 },
+    "wink":  { "dir": "../assets/frames/wink",  "fps": 24, "cooldown": 20 },
+    "yawn":  { "dir": "../assets/frames/yawn",  "fps": 24, "cooldown": 120 }
+  },
+  "triggers": {
+    "click": "wink",
+    "dblclick": "blush",
+    "autoIntervalSec": 15,
+    "autoPool": ["dull", "cry", "yawn"]
+  }
+}
